@@ -1,0 +1,32 @@
+typedef struct {
+  int rowInd;     //1=Wall, 0=Dead
+  int colInd;
+  int northWall;
+  int eastWall;
+  int southWall;
+  int westWall;
+}Cell;
+
+Cell Grid[4][6];    //creates 2d array of type cell called grid
+
+//fill outside wall from here
+
+void GridInit(void){
+  for(int i=0;i<4;i++){
+    for(int j=0;j<6;j++){
+      Grid{i][j].northWall=0;
+      Grid{i][j].eastWall=0;
+      Grid{i][j].southWall=0;
+      Grid{i][j].westWall=0;
+    }
+}
+
+void WallGen(void){
+  int i=0;
+  int j=0;
+  
+  for 
+}
+
+//put initialization function to say start and finish here
+
