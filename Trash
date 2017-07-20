@@ -1,0 +1,32 @@
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	return EXIT_SUCCESS;
+}
+
+//initialize new structure of type cell
+
+//initialize current position structure (direction, cell)
+
+//initialize previous path tracking
+
+//initialize array of type cell
+
+//lay out known values here (where there are known zeros etc.)
+
+//ask where user is starting
+
+//ask where user is going
+
+//what it must do: go forward one cell, turn right, check if branch right, 
+//if branch right, update new known values (you know if theres something
+//you can say theres one in front, and opposite on next cell). if nothing, turn left
+//go streight one cell, etc. if turn right, nothing, turn left, nothing, turn left
+//until something found (updating constanty)
+
+//note on each cell movement, check if current cell == desired cell. if true, beep,
+//go to optimization. 
