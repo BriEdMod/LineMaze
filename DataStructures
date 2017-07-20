@@ -1,0 +1,15 @@
+typedef struct {
+  int rowInd;     //1=Wall, 0=Dead
+  int colInd;
+  int northWall;
+  int eastWall;
+  int southWall;
+  int westWall;
+}Cell;
+
+typedef struct {
+  int currRow;
+  int currCol;
+  int currDir
+}CurrPos;
+
